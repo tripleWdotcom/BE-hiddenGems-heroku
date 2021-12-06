@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.group4</groupId>
-	<artifactId>auctionsite</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<name>auctionsite</name>
+	<artifactId>hiddenGems</artifactId>
+	<version>1.0.0</version>
+	<name>hiddenGems</name>
 	<description>Spring boot auction site</description>
 	<properties>
 		<java.version>15</java.version>
