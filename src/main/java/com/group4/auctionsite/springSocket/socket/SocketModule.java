@@ -9,12 +9,15 @@ import com.corundumstudio.socketio.listener.DisconnectListener;
 import com.group4.auctionsite.entities.Notification;
 import org.springframework.stereotype.Component;
 
+import java.util.Collections;
+
 @Component
 public class SocketModule {
 
     private SocketIOServer server;
 
     private SocketModule(){
+        String PORT = System.getenv("PORT");
 
 
         if (server != null)return;

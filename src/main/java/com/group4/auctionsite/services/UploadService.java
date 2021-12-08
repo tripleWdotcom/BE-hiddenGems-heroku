@@ -16,7 +16,7 @@ public class UploadService {
   public String saveFiles(List<MultipartFile> files) {
 
     String cwd = System.getProperty("user.dir");
-    String uploadFolder = cwd + "/www/assets/uploads/";
+    String uploadFolder = cwd + "/www/uploads/";
     String generatedString = generateString();
 
     for (var file : files) {
